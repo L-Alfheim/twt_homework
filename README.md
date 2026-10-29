@@ -28,12 +28,16 @@
 
 请在自己的分支完成作业，不要直接提交到主分支。进入项目目录后创建新分支，将 student-id 替换为网名：
 
+```
 git switch -c homework/student-id
+```
 
 完成作业并确认 mvn test 通过后，提交并推送分支：
 
+```
 git add .
 git commit -m "Complete electric power management homework"
 git push -u origin homework/student-id
+```
 
 然后向仓库的默认分支创建 Pull Request（PR）。请在 PR 说明中填写姓名或学号、实现内容和测试结果。
